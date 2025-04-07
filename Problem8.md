@@ -44,9 +44,9 @@ begin
 		accept num;
 		sum <- sum+num;
 		i <- i+1;
-	until i = n+1;
+	until (i = n+1);
 
-	avg <- um/n;
+	avg <- sum/n;
 
 	print "the average is ",avg;
 end
