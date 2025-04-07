@@ -10,7 +10,7 @@ begin
 	for i from 1 to 5 do
 		sum <- sum+i;
 		i <- i+1;
-	enddo	
+	endo	
 	display "the sum is ",sum;
 end
 ```
