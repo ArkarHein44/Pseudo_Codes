@@ -19,6 +19,8 @@ The structured program theorem, also known as the Böhm–Jacopini theorem, is a
 - Iteration is a combination of decision and sequence and can repeat steps
 - Iteration can be though of as "while something is true, do this, otherwise stop"
 
+---
+
 ### Program Design Methods
 There are six standard methods -
 1. Pseudo Code
@@ -56,18 +58,18 @@ The prefix pseudo means "fake" ; pseudo code, therefore , literally means " fake
 - There are three looping constructs:
 
 ```shell
-(i)repeat-until
+# (i)repeat-until
 repeat
 	command-sequence:
 until (condition);
 
-(ii) while
+# (ii) while
 while (condition)
 do
 	command-sequence:
 endo;
 
-(iii) for
+# (iii) for
 for index from a to b
 do
 	command-sequence:
@@ -112,7 +114,7 @@ case index (condition N)
 endcase;
 ```
 
-` Operators
+- Operators
 1. Arithmetic Operator
 	- "+" addition
 	- "-" subtraction
