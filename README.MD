@@ -2,7 +2,7 @@
 ### Structure Theorm
 The structured program theorem, also known as the Böhm–Jacopini theorem, is a fundamental result in programming language theory that states any computable function can be expressed using only three control structures: sequence, selection (if-then-else), and repetition (while or for loops). 
 
-##### Sequence 
+#### Sequence 
 - Sequence is the most basic of the construct
 - It is simply performing one step after another
 - Each step is followed in a specific sequence
@@ -28,6 +28,8 @@ There are six standard methods -
 5. Nassi-Shneidermen Chart (Graphical Design Notation)
 6. HIPO
 
+--- 
+
 ## Pseudo Code	
 The prefix pseudo means "fake" ; pseudo code, therefore , literally means " fake code" – that is, not the code that is actually entered into the computer. Pseudo code uses human-language statements instead of symbols (such as flowchart symbols) do represent program logic. It is more precise in representing logic than regular idiomatic English but dose not follows a specific programming language's syntax. Pseudo code statements can be composed and edited by hand or by using a typical of the shelf word processing program. Some people would argue further that pseudo code is much closer to actual code than are flowcharts, which makes pseudo code more productive than flow chatting. However, some programmer's don't like to use pseudo code because it is doesn't depict the program logic visually like a flowchart does.
 
@@ -43,7 +45,7 @@ The prefix pseudo means "fake" ; pseudo code, therefore , literally means " fake
 	- Each set of instructions is written from top to bottom, with only one entry and one exit
 
 ### Pseudo Code Definition
-- The assignment symbol means "takes the value of"
+- The assignment symbol &larr; means "takes the value of"
 - Sequencing is indicated by indentation
 - Keywords allow data input to and output from the program:
     - read-to input data from a backing store
@@ -133,6 +135,7 @@ endcase;
 	2. *,/
 	3. +, -
 
+---
 
 #### Simple Sequence
 ##### Example
@@ -144,6 +147,8 @@ begin
 end
 ```
 
+---
+
 #### Simple Selection
 ##### Example
 ```shell
@@ -154,6 +159,8 @@ else
 endif
 ```
 
+---
+
 #### Simple Repetition
 ##### Example
 ```shell
@@ -162,9 +169,13 @@ while nails is sticking out
 endwhile
 ```
 
+---
+
 ### A systematic Approach to Defining a Problem
 Defining the problem is the first step towards a problem solution. A systematic approach to problem definition, leads to a good understanding of the problem. Here is a tried and tested method for defining (or specifying) any given problem:
 - Divide the problem into three (3) separate components:
 	1. input or source data provided
 	2. output or end result required
 	3. processing-a list of what actions are to be performed
+
+---
