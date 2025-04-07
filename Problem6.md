@@ -1,4 +1,4 @@
-### Problem 5:
+### Problem 6:
 Write an algorithm in pseudo code to convert the given Centigrade temperature to Fahrenheit.
 Use Formula C = 5/9 ( F - 32 ) : F = ( 9/5 ) C + 32 
 
