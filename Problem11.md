@@ -1,4 +1,4 @@
-### Problem 10:
+### Problem 11:
 Write a pseudo to generate the following series of numbers 1,4,9,16,25,36.
 
 ```{r, tidy=FALSE, eval=FALSE}
