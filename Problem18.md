@@ -1,4 +1,4 @@
-### Problem 17:
+### Problem 18:
 Write an algorithm in pseudo code to display the data from an array.
 
 ```{r, tidy=FALSE, eval=FALSE}
