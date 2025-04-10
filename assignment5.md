@@ -2,6 +2,7 @@
 1. Write an algorithm in pseudo code for finding the middle on of three numbers
 
 ### Answer:
+```{r, tidy=FALSE, eval=FALSE}
 {Find the middle on of the three numbers}
 Use Variables: num1, num2, num3, middle;
 begin 
@@ -32,6 +33,5 @@ begin
 
 	print “The middle is “,middle;
 end
-
 ```
 
